@@ -8,7 +8,7 @@ import time
 import hashlib
 
 # --- Config --- #
-DB_NAME = ""
+DB_NAME = "reddit_comments.db"
 REDDIT_CLIENT_ID = ""
 REDDIT_CLIENT_SECRET = ""
 REDDIT_USER_AGENT = ""
