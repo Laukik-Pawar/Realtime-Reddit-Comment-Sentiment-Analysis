@@ -47,3 +47,30 @@ Each comment is analyzed and labeled accordingly.
 🚩 Toxic content flagging
 📈 Trend visualization over time
 
+🔐 How to Get Reddit API Credentials
+✅ Step 1: Create a Reddit Account (if you don't have one)
+Go to https://www.reddit.com/register and sign up.
+✅ Step 2: Visit Reddit Developer Portal
+Go to https://www.reddit.com/prefs/apps
+Scroll to the bottom and click “Create App” or “Create Another App”
+✅ Step 3: Fill the App Details
+name: A name for your app (e.g., Reddit Sentiment Analyzer)
+App type: Select script
+description: (Optional)
+about url: Leave blank
+redirect uri: Use http://localhost:8080
+permissions: You don’t need to select anything here
+Click “Create app”.
+✅ Step 4: Get Your Credentials
+After creating the app, you’ll see something like this:
+personal use script   ->  YOUR_CLIENT_ID
+client secret         ->  YOUR_CLIENT_SECRET
+Now copy:
+✅ client_id: The string under the “personal use script”
+✅ client_secret: The “secret” field below it
+✅ user_agent: A string like project_name:v1.0 (by /u/your_reddit_username)
+✅ Example for Your Python Script
+
+REDDIT_CLIENT_ID = "abc123XYZ"
+REDDIT_CLIENT_SECRET = "yourclientsecret"
+REDDIT_USER_AGENT = "reddit_sentiment:v1.0 (by /u/lucky4403)"
