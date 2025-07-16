@@ -8,10 +8,10 @@ import time
 import hashlib
 
 # --- Config --- #
-DB_NAME = "reddit_comments.db"
-REDDIT_CLIENT_ID = "3C5xi9lYD1QxsKZg7viKVg"
-REDDIT_CLIENT_SECRET = "ZCdhs46WFDimQSA8p8B0txUNLp7RCA"
-REDDIT_USER_AGENT = "social_media_recommendation:v1.0 (by /u/lucky4403)"
+DB_NAME = ""
+REDDIT_CLIENT_ID = ""
+REDDIT_CLIENT_SECRET = ""
+REDDIT_USER_AGENT = ""
 
 # --- DB Setup --- #
 def init_db():
